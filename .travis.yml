@@ -2,8 +2,8 @@ language: java
 sudo: false # faster builds
 
 script: 
-  - java Hello.java
-  - javac Hello
+  - javac Hello.java
+  - java Hello
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
